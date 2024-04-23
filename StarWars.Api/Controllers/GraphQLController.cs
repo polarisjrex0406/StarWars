@@ -26,7 +26,7 @@ namespace StarWars.Api.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            _logger.LogInformation("Get requests for GraphiQL. Sending GUI back...");
+            _logger.LogInformation("Getting requests for GraphiQL. Sending GUI back...");
             return View();
         }
 
