@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using StarWars.Api.Models;
 using System.Threading.Tasks;
-//ABC by K1008 + PJR
+//ABC by K1008 + PJR + 3rd try
 namespace StarWars.Api.Controllers
 {
     [Route("graphql")]
